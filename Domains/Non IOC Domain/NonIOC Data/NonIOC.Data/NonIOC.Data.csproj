@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>JinnDev.NonIOC.Data</AssemblyName>
+    <RootNamespace>JinnDev.NonIOC.Data</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>JinnDev</Authors>
+    <Company>Jinn Studios</Company>
+    <Product>Non IOC</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <PackageOutputPath>..\..\..\..\NuGetSource</PackageOutputPath>
+  </PropertyGroup>
+</Project>

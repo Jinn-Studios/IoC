@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>JinnDev.NonIOC.ConsoleApp</AssemblyName>
+    <RootNamespace>JinnDev.NonIOC.ConsoleApp</RootNamespace>
+    <Authors>JinnDev</Authors>
+    <Company>Jinn Studios</Company>
+    <Product>Non IOC</Product>
+    <RestoreSources>$(RestoreSources);..\..\..\NuGetSource;https://api.nuget.org/v3/index.json</RestoreSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JinnDev.NonIOC" Version="1.0.0" />
+    <PackageReference Include="JinnDev.NonIOC.Data" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

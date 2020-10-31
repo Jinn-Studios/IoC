@@ -1,0 +1,16 @@
+﻿using JinnDev.BadIOC.Data.Core;
+using JinnDev.BadIOC.Data.Entities;
+
+namespace JinnDev.BadIOC.Data
+{
+    public class DataRepository : IDataRepository
+    {
+        public ValueEntity GetValue(int valueId)
+            => new ValueEntity { Id = valueId, Value = "Value with ID of " + valueId };
+
+        public void SetValue(ValueEntity value)
+        {
+            throw new System.Exception("This should only be hit by domain code, but the current demo only shows if this is hit during Unit Tests, which is a no-no");
+        }
+    }
+}

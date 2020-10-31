@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>JinnDev.BadIOC</AssemblyName>
+    <RootNamespace>JinnDev.BadIOC</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>JinnDev</Authors>
+    <Company>Jinn Studios</Company>
+    <Product>Bad IOC</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <PackageOutputPath>..\..\..\..\NuGetSource</PackageOutputPath>
+    <RestoreSources>$(RestoreSources);..\..\..\..\NuGetSource;https://api.nuget.org/v3/index.json</RestoreSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JinnDev.BadIOC.Data" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

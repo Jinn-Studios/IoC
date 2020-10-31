@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>JinnDev.SingularIOC</AssemblyName>
+    <RootNamespace>JinnDev.SingularIOC</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>JinnDev</Authors>
+    <Company>Jinn Studios</Company>
+    <Product>Singular IOC</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <PackageOutputPath>..\..\..\NuGetSource</PackageOutputPath>
+    <RestoreSources>$(RestoreSources);..\..\..\NuGetSource;https://api.nuget.org/v3/index.json</RestoreSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SingularIOC.Core\SingularIOC.Core.csproj" />
+    <ProjectReference Include="..\SingularIOC.Data.Core\SingularIOC.Data.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JinnDev.IOC.SDK" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

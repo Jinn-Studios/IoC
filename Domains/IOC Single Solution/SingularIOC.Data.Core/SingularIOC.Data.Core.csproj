@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>JinnDev.SingularIOC.Data.Core</AssemblyName>
+    <RootNamespace>JinnDev.SingularIOC.Data.Core</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>JinnDev</Authors>
+    <Company>Jinn Studios</Company>
+    <Product>Singular IOC</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <PackageOutputPath>..\..\..\NuGetSource</PackageOutputPath>
+  </PropertyGroup>
+
+</Project>

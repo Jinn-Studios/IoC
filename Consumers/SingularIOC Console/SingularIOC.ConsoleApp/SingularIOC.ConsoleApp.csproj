@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>JinnDev.SingularIOC.ConsoleApp</AssemblyName>
+    <RootNamespace>JinnDev.SingularIOC.ConsoleApp</RootNamespace>
+    <Authors>JinnDev</Authors>
+    <Company>Jinn Studios</Company>
+    <Product>Singular IOC</Product>
+    <RestoreSources>$(RestoreSources);..\..\..\NuGetSource;https://api.nuget.org/v3/index.json</RestoreSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JinnDev.SingularIOC" Version="1.0.0" />
+    <PackageReference Include="JinnDev.SingularIOC.Core" Version="1.0.0" />
+    <PackageReference Include="JinnDev.SingularIOC.Data" Version="1.0.0" />
+    <PackageReference Include="JinnDev.SingularIOC.Data.Core" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
